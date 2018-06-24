@@ -1,0 +1,25 @@
+$border_color: #d0d8e1;
+$light_blue: #51a1ff;
+
+.bo-all-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bo-common-iconcircle {
+  display: inline-flex;
+  .wrapper-circle {
+    background-color: white;
+    border: 1px solid $border_color;
+    border-radius: 50%;
+    @extend .bo-all-center;
+    .wrapper-icon {
+      position: relative;
+      @extend .bo-all-center;
+    }
+  }
+  .iconcircle-active > i {
+    color: $light_blue;
+  }
+}

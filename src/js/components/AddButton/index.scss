@@ -1,0 +1,20 @@
+.bo-common-iconcircle {
+    display: inline-flex;
+    .wrapper-circle {
+        background-color: white;
+        border: 1px solid #d0d8e1;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .wrapper-icon {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    .iconcircle-active>i {
+        color: #51a1ff;
+    }
+}
